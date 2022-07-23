@@ -14,7 +14,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero-background": "url('/images/background.png')",
-        "chemist": "url('/images/bg-chemist.png')",
+        chemist: "url('/images/bg-chemist.png')",
       },
       fontFamily: {
         iceberg: ["Iceberg", "sans-serif"],
