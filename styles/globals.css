@@ -6,6 +6,10 @@
 
 @layer base {
   * {
-    @apply font-iceberg bg-bg text-primary;
+    @apply font-iceberg text-primary;
+  }
+  html,
+  body {
+    @apply bg-bg;
   }
 }
