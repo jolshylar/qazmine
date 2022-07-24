@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="text-center py-4 font-sans">
+    <footer className="text-center py-4 font-sans border-t">
       <a
         className="font-sans text-secondary"
         href="https://jolshylar.vercel.app"
