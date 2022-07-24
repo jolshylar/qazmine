@@ -2,7 +2,10 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Hero from "../components/Hero";
 import Layout from "../components/Layout";
-import Basics from "../components/Basics";
+import BasicsOne from "../components/Basics/BasicsOne";
+import BasicsTwo from "../components/Basics/BasicsTwo";
+import BasicsThree from "../components/Basics/BasicsThree";
+import ReadyToStart from "../components/ReadyToStart";
 
 const Home: NextPage = () => {
   return (
@@ -13,7 +16,10 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
-      <Basics />
+      <BasicsOne />
+      <BasicsTwo />
+      <BasicsThree />
+      <ReadyToStart />
     </Layout>
   );
 };
