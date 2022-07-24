@@ -6,15 +6,14 @@
 
 @layer base {
   * {
-    @apply font-iceberg text-primary;
+    @apply text-primary;
   }
   html,
   body {
-    @apply bg-bg;
-    @apply scroll-smooth;
+    @apply bg-bg scroll-smooth font-iceberg;
   }
   .explanation {
-    @apply mx-4 flex items-center gap-6 sm:text-2xl shadow-sm;
+    @apply flex items-center gap-6 sm:text-2xl;
   }
   .explanation > p {
     @apply sm:px-4;
